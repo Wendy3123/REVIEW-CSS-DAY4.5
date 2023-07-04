@@ -1,0 +1,67 @@
+body {
+    background: rgb(212, 153, 66);
+}
+
+
+* {
+    border: 1px solid black
+}
+
+.bc {
+    display: flex
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.a {
+    height: 30vh;
+    margin-bottom: 1%
+}
+
+.b {
+    height: 65vh;
+    margin-bottom: 1%;
+    width: 70%;
+    margin-right: 1%
+}
+
+.container {
+    display: flex;
+
+}
+
+.c {
+    height: 65vh;
+    width: 30%;
+}
+
+
+@media(max-width:900px) {
+    body {
+        background-color: pink;
+    }
+
+    .a {
+        height: 20vh;
+        margin-bottom: 2%
+    }
+
+    .b {
+        height: 60vh;
+        margin-bottom: 2%;
+        width:100vw;
+        margin-right:0
+    }
+
+    .c {
+        height: 20vh;
+        width:100vw
+    }
+
+    .bc{
+        flex-wrap: wrap;
+    }
+}
